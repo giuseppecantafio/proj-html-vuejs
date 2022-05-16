@@ -1,0 +1,17 @@
+/* Importo bootstrap*/
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* Webfonts fontawesome */
+$fa-font-path: "./webfonts";
+
+/* Importo fontawesome */
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+/* Importo le variabili */
+@import "./vars.scss";
+
+/* Debug */
+.debug {
+    border: 1px solid black;
+}
