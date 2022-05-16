@@ -1,3 +1,8 @@
+/* Text and other */
+$dark: black;
+$light: white;
+$search-bg: #F5F5F5;
+
 /* Color cube */
 $white: #ffff;
 $cinder: #171520;
@@ -11,7 +16,7 @@ $catalina-blue: #08427d;
 
 /* Median cut */
 $shark: #22272d;
-$quil-gray: #e2e2e0;
+$quill-gray: #e2e2e0;
 $spicy-mix: #825c3f;
 $gunsmoke: #8a9391;
 $driftwood: #b08d52;
@@ -22,3 +27,11 @@ $lemon-grass: #8c8d8a;
 $jungle-green: #2fab97;
 $vulcan: #141423;
 $casablanca: #f8b54e;
+
+/* Mixin */
+@mixin standard-a{
+    text-decoration: none;
+}
+@mixin standard-ul{
+    list-style-type: none;
+}

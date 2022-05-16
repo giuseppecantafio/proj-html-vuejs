@@ -17,4 +17,12 @@ export default {
 
 <style lang="scss">
 @import "./style/general.scss";
+#app{
+  a{
+    @include standard-a;
+  }
+  ul{
+    @include standard-ul;
+  }
+}
 </style>
