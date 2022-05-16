@@ -47,7 +47,13 @@
       </nav>
       <!--/FINE NAV-->
       <!--INIZIO JUMBOTRON-->
-      <div class="jumbotron"></div>
+        <div class="jumbotron d-flex justify-content-center align-items-center">
+          <div class="info-container text-center">
+            <h2>Commence Business</h2>
+            <h1>Distant Mentoring Program</h1>
+            <div class="myButton">Download free guidebook <i class="fa-solid fa-arrow-right"></i></div>
+          </div>
+        </div>
       <!--/FINE JUMBOTRON-->
     </header>
   </div>
@@ -127,4 +133,15 @@ nav {
 }
 
 //JUMBOTRON
+.jumbotron{
+  height: 600px;
+  width: 100%;
+  background-image: url('../assets/images/home-3-hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .info-container{
+    color: $light;
+  }
+}
 </style>
