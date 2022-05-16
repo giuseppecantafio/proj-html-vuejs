@@ -1,6 +1,7 @@
 <template>
   <div>
     <header>
+      <!--INIZIO NAV-->
       <nav>
         <div class="container">
           <div class="row d-flex justify-content-center align-items-center">
@@ -24,7 +25,9 @@
             </div>
             <div class="col-4 col-right d-flex align-items-center">
               <div class="d-flex align-items-center">
-                 <div class="shopping-container flex-container d-flex align-items-center">
+                <div
+                  class="shopping-container flex-container d-flex align-items-center"
+                >
                   <i class="fa-solid fa-cart-shopping"></i>
                   <div class="shopping-counter">0</div>
                 </div>
@@ -42,7 +45,10 @@
           </div>
         </div>
       </nav>
+      <!--/FINE NAV-->
+      <!--INIZIO JUMBOTRON-->
       <div class="jumbotron"></div>
+      <!--/FINE JUMBOTRON-->
     </header>
   </div>
 </template>
@@ -62,6 +68,7 @@ export default {
 <style scoped lang="scss">
 @import "../style/vars.scss";
 
+// NAVBAR
 nav {
   height: 80px;
   width: 100%;
@@ -84,23 +91,23 @@ nav {
           height: 100%;
           width: 50%;
         }
-        .shopping-container{
+        .shopping-container {
           position: relative;
-          .shopping-counter{
-          font-size: 0.6rem;
-          font-weight: 700;
-          height: 15px;
-          width: 15px;
-          line-height: 15px;
-          vertical-align: middle;
-          text-align: center;
-          color: $light;
-          background-color: $mountain-meadow;
-          border-radius: 50%;
-          position: absolute;
-          top: -10px;
-          right: -8px;
-        }
+          .shopping-counter {
+            font-size: 0.6rem;
+            font-weight: 700;
+            height: 15px;
+            width: 15px;
+            line-height: 15px;
+            vertical-align: middle;
+            text-align: center;
+            color: $light;
+            background-color: $mountain-meadow;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            right: -8px;
+          }
         }
         .flex-container {
           position: relative;
@@ -118,4 +125,6 @@ nav {
     }
   }
 }
+
+//JUMBOTRON
 </style>
