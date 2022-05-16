@@ -1,0 +1,34 @@
+{
+  "header": [
+    {
+        "name": "Home",
+        "link": "",
+        "active": false
+    },
+    {
+        "name": "Pages",
+        "link": "",
+        "active": false
+    },
+    {
+        "name": "Courses",
+        "link": "",
+        "active": false
+    },
+    {
+        "name": "Features",
+        "link": "",
+        "active": false
+    },
+    {
+        "name": "Blog",
+        "link": "",
+        "active": false
+    },
+    {
+        "name": "Shop",
+        "link": "",
+        "active": false
+    }
+  ]
+}
