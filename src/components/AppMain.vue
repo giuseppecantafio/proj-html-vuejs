@@ -60,7 +60,81 @@
                 <div class="shape-container-5">
                   <div class="rounded-circle"></div>
                 </div>
-                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="second-block">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-4 col-left">
+                <h2>129&plus;</h2>
+                <p>enroalled learners</p>
+              </div>
+              <div class="col-4 col-center">
+                <h2>80</h2>
+                <p>finished sessions</p>
+              </div>
+              <div class="col-4 col-right">
+                <h2>4&percnt;</h2>
+                <p>satisfaction rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="third-block">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-8 col-left">
+                <div class="img-container-1">
+                  <img
+                    src="../assets/images/stock-full-hd-11-670x450.jpg"
+                    alt="woman"
+                    class="img-fluid rounded"
+                  />
+                </div>
+                <div class="yt-player-container">
+                  <a href="#">
+                    <img
+                      src="../assets/images/icon-youtube-play.png"
+                      alt="youtube play"
+                    />
+                  </a>
+                </div>
+                <div class="img-container-2"></div>
+                <div class="img-container-3">
+                  <img
+                    src="../assets/images/maxcoach-shape-05-150x150.png"
+                    alt="shape"
+                  />
+                </div>
+                <div class="img-container-4">
+                  <img
+                    src="../assets/images/maxcoach-shape-07-150x150.png"
+                    alt="shape"
+                  />
+                </div>
+                <div class="shape-container-5">
+                  <div class="rounded-circle"></div>
+                </div>
+              </div>
+              <div class="col-4 col-right">
+                <div class="text-container">
+                  <p class="first">how we work</p>
+                  <div class="h1">
+                    <strong>Upgrade your skill </strong><span>Upgrade your life</span>
+                  </div>
+                  <p class="second py-2 text-justify">
+                    Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets of insights into your caree. MaxCoach accompany learners in every stage of learning.
+                  </p>
+                  <p class="third">
+                    <strong>
+                      <a href="#"
+                        >Download free guidebook <i class="fa-solid fa-arrow-right"></i
+                      ></a>
+                    </strong>
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -87,11 +161,10 @@ export default {
     rgba(255, 255, 255, 1) 100%
   );
   .main-container {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     .text-container {
       width: 70%;
-      margin: 0 auto;
       .first {
         text-transform: uppercase;
       }
@@ -117,30 +190,119 @@ export default {
         width: 150px;
         height: 150px;
         position: absolute;
-        top: -75px;
+        top: -65px;
         right: 10px;
         z-index: 2;
       }
       .img-container-3 {
         position: absolute;
         bottom: -20px;
-        right: 20px;
+        right: 0px;
       }
       .img-container-4 {
         position: absolute;
         top: -50px;
         right: 64px;
       }
-      .shape-container-5{
+      .shape-container-5 {
         width: 55px;
         height: 55px;
         position: absolute;
         left: -100px;
         top: 0;
-        div{
+        div {
           width: 55px;
           height: 55px;
-          border: 7px solid #ECC5AB;
+          border: 7px solid #ecc5ab;
+        }
+      }
+    }
+    .second-block {
+      padding-top: 50px;
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+      h2 {
+        color: $mountain-meadow;
+        font-weight: 700;
+      }
+      p {
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: $storm-dust;
+        font-weight: 600;
+      }
+    }
+    .third-block {
+      padding-top: 100px;
+
+      .col-left {
+        position: relative;
+
+        .img-container-1 {
+          height: auto;
+          width: auto;
+          z-index: 55555;
+        }
+        .yt-player-container {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 4;
+        }
+        .img-container-2 {
+          height: 102px;
+          width: 100px;
+          background-image: url("../assets/images/svg-0.svg");
+          background-size: 100px 102px;
+          position: absolute;
+          top: -40px;
+          left: -40px;
+          z-index: 3;
+        }
+        .img-container-3 {
+          position: absolute;
+          top: 0;
+          left: -50px;
+          z-index: 2;
+        }
+        .img-container-4 {
+          position: absolute;
+          bottom: -20px;
+          right: 10px;
+          z-index: 1;
+        }
+        .shape-container-5 {
+          width: 55px;
+          height: 55px;
+          position: absolute;
+          right: -100px;
+          top: -80px;
+          div {
+            width: 55px;
+            height: 55px;
+            border: 7px solid #ecc5ab;
+          }
+        }
+      }
+      .col-right {
+        .text-container {
+          width: 100%;
+          .first {
+            text-transform: uppercase;
+          }
+          .first,
+          .second,
+          .third {
+            color: $storm-dust;
+          }
+          .h1 span {
+            color: $mountain-meadow;
+          }
+          a{
+            color: $dark;
+          }
         }
       }
     }
