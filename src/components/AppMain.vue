@@ -2,6 +2,7 @@
   <div>
     <div class="main-wrapper">
       <div class="main-container">
+        <!--INIZIO PRIMO BLOCCO-->
         <div class="first-block">
           <div class="container-fluid">
             <div class="row">
@@ -64,6 +65,8 @@
             </div>
           </div>
         </div>
+        <!--/FINE PRIMO BLOCCO-->
+        <!--INIZIO SECONDO BLOCCO-->
         <div class="second-block">
           <div class="container-fluid">
             <div class="row">
@@ -82,6 +85,8 @@
             </div>
           </div>
         </div>
+        <!--/FINE SECONDO BLOCCO-->
+        <!--INIZIO TERZO BLOCCO-->
         <div class="third-block">
           <div class="container-fluid">
             <div class="row">
@@ -144,6 +149,8 @@
             </div>
           </div>
         </div>
+        <!--/FINE TERZO BLOCCO-->
+        <!--INIZIO QUARTO BLOCCO-->
         <div class="fourth-block">
           <div class="cards-intro text-center">
             <p>Join MaxCoach at best</p>
@@ -163,6 +170,7 @@
             </div>
           </div>
         </div>
+        <!--/FINE QUARTO BLOCCO-->
       </div>
     </div>
   </div>
@@ -187,6 +195,7 @@ export default {
 
 <style scoped lang="scss">
 @import "../style/vars.scss";
+//MAIN AND GENERAL RULES FOR APPMAIN
 .main-wrapper {
   padding-top: 150px;
   width: 100%;
@@ -209,6 +218,7 @@ export default {
   .main-container {
     width: 70%;
     margin: 0 auto;
+    //PRIMO BLOCCO
     .text-container {
       width: 70%;
       .first {
@@ -263,6 +273,7 @@ export default {
         }
       }
     }
+    //SECONDO BLOCCO
     .second-block {
       padding-top: 50px;
       width: 60%;
@@ -279,6 +290,7 @@ export default {
         font-weight: 600;
       }
     }
+    //TERZO BLOCCO
     .third-block {
       padding-top: 100px;
 
@@ -352,6 +364,7 @@ export default {
         }
       }
     }
+    // QUARTO BLOCCO
     .fourth-block {
       padding-top: 100px;
 
