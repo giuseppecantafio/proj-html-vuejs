@@ -122,19 +122,43 @@
                 <div class="text-container">
                   <p class="first">how we work</p>
                   <div class="h1">
-                    <strong>Upgrade your skill </strong><span>Upgrade your life</span>
+                    <strong>Upgrade your skill </strong
+                    ><span>Upgrade your life</span>
                   </div>
                   <p class="second py-2 text-justify">
-                    Opening up more opportunities in front of you to get the ticket to more enjoyable door in life. Getting equipped with new skills for new sets of insights into your caree. MaxCoach accompany learners in every stage of learning.
+                    Opening up more opportunities in front of you to get the
+                    ticket to more enjoyable door in life. Getting equipped with
+                    new skills for new sets of insights into your caree.
+                    MaxCoach accompany learners in every stage of learning.
                   </p>
                   <p class="third">
                     <strong>
                       <a href="#"
-                        >Download free guidebook <i class="fa-solid fa-arrow-right"></i
+                        >Download free guidebook
+                        <i class="fa-solid fa-arrow-right"></i
                       ></a>
                     </strong>
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fourth-block">
+          <div class="cards-intro text-center">
+            <p>Join MaxCoach at best</p>
+            <div class="h1">
+              <strong>Latest Online </strong><span>Courses</span>
+            </div>
+          </div>
+          <div class="container-fluid">
+            <div class="row">
+              <div
+                class="col-4 text-center cards-container"
+                v-for="(card, index) in myCards"
+                :key="index"
+              >
+                <app-cards :item="card" />
               </div>
             </div>
           </div>
@@ -145,8 +169,19 @@
 </template>
 
 <script>
+import dati from "../dati.json";
+import AppCards from "./AppCards.vue";
+
 export default {
   name: "AppMain",
+  components: {
+    AppCards,
+  },
+  data() {
+    return {
+      myCards: dati.cards,
+    };
+  },
 };
 </script>
 
@@ -160,6 +195,17 @@ export default {
     rgba(226, 226, 224, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    top: 95%;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    background: url("../assets/images/svg-1.svg") bottom center;
+  }
   .main-container {
     width: 70%;
     margin: 0 auto;
@@ -219,7 +265,7 @@ export default {
     }
     .second-block {
       padding-top: 50px;
-      width: 50%;
+      width: 60%;
       margin: 0 auto;
       text-align: center;
       h2 {
@@ -269,7 +315,7 @@ export default {
         }
         .img-container-4 {
           position: absolute;
-          bottom: -20px;
+          bottom: -50px;
           right: 10px;
           z-index: 1;
         }
@@ -300,10 +346,27 @@ export default {
           .h1 span {
             color: $mountain-meadow;
           }
-          a{
+          a {
             color: $dark;
           }
         }
+      }
+    }
+    .fourth-block {
+      padding-top: 100px;
+
+      .cards-intro {
+        p {
+          text-transform: uppercase;
+          color: $storm-dust;
+        }
+        .h1 span {
+          color: $mountain-meadow;
+        }
+      }
+      .cards-container {
+        padding-top: 50px;
+        padding-bottom: 100px;
       }
     }
   }
