@@ -52,7 +52,7 @@
             <h2>Commence Business</h2>
             <h1>Distant Mentoring Program</h1>
             <div class="d-flex justify-content-center">
-              <a href="#" class="myButton rounded mt-3 hvr-grow">Download free guidebook <i class="fa-solid fa-arrow-right"></i></a>
+              <a href="#" class="myButton rounded mt-3 hvr-grow text-center">Download free guidebook <i class="fa-solid fa-arrow-right"></i></a>
             </div>
           </div>
           <div class="bar-container text-center">
