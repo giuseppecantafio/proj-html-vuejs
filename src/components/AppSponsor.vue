@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: "SponsorApp",
+  name: "AppSponsor",
 };
 </script>
 
