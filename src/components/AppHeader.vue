@@ -31,7 +31,7 @@
                   <i class="fa-solid fa-cart-shopping"></i>
                   <div class="shopping-counter">0</div>
                 </div>
-                <i class="fa-solid fa-circle-user px-2"></i>
+                <i class="fa-regular fa-circle-user px-3"></i>
                 <div class="flex-container d-flex align-items-center">
                   <i class="fa-solid fa-magnifying-glass"></i>
                   <input
@@ -51,7 +51,16 @@
           <div class="info-container text-center">
             <h2>Commence Business</h2>
             <h1>Distant Mentoring Program</h1>
-            <div class="myButton">Download free guidebook <i class="fa-solid fa-arrow-right"></i></div>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="myButton rounded mt-3 hvr-grow">Download free guidebook <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="bar-container text-center">
+            <a href="#"><i class="fa-brands fa-bitcoin hvr-float"></i></a>
+            <a href="#"><i class="fa-brands fa-cc-visa hvr-float"></i></a>
+            <a href="#"><i class="fa-brands fa-amazon-pay hvr-float"></i></a>
+            <a href="#"><i class="fa-brands fa-paypal hvr-float"></i></a>
+            <a href="#"><i class="fa-brands fa-google-pay hvr-float"></i></a>
           </div>
         </div>
       <!--/FINE JUMBOTRON-->
@@ -140,8 +149,40 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
   .info-container{
     color: $light;
+    h2{
+      font-size: 2rem;
+    }
+    h1{
+      font-size: 2.5rem;
+    }
+    .myButton{
+    width: 250px;
+    padding: 10px 5px;
+    background-color: $white;
+    color: $mountain-meadow;
+    &:hover{
+      background-color: $mountain-meadow;
+      color: $white;
+    }
+    }
+  }
+  .bar-container {
+    background-color: $white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    right: 0;
+    a i {
+      display: block;
+      color: $dark;
+      padding: 10px 6px;
+      &:hover{
+
+      }
+    }
   }
 }
 </style>

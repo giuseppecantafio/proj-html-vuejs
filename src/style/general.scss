@@ -7,6 +7,11 @@ $fa-font-path: "./webfonts";
 /* Importo fontawesome */
 @import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+/*Importo hover*/
+@import "~hover.css/css/hover-min.css";
 
 /* Importo le variabili */
 @import "./vars.scss";
