@@ -300,36 +300,38 @@ export default {
         .img-container-1 {
           height: auto;
           width: auto;
-          z-index: 55555;
+          position: absolute;
+          top: 0;
+          z-index: 6;
         }
         .yt-player-container {
           position: absolute;
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          z-index: 4;
+          z-index: 7;
         }
         .img-container-2 {
-          height: 102px;
-          width: 100px;
+          height: 152px;
+          width: 150px;
           background-image: url("../assets/images/svg-0.svg");
-          background-size: 100px 102px;
+          background-size: 150px 152px;
           position: absolute;
-          top: -40px;
-          left: -40px;
+          top: -50px;
+          left: -50px;
           z-index: 3;
         }
         .img-container-3 {
           position: absolute;
-          top: 0;
-          left: -50px;
-          z-index: 2;
+          top: 50px;
+          left: -80px;
+          z-index: 4;
         }
         .img-container-4 {
           position: absolute;
-          bottom: -50px;
+          bottom: -85px;
           right: 10px;
-          z-index: 1;
+          z-index: 2;
         }
         .shape-container-5 {
           width: 55px;
@@ -337,6 +339,7 @@ export default {
           position: absolute;
           right: -100px;
           top: -80px;
+          z-index: 1;
           div {
             width: 55px;
             height: 55px;
@@ -366,7 +369,7 @@ export default {
     }
     // QUARTO BLOCCO
     .fourth-block {
-      padding-top: 100px;
+      padding-top: 150px;
 
       .cards-intro {
         p {
@@ -385,7 +388,3 @@ export default {
   }
 }
 </style>
-
-// position: relative; // &:after { // content: ""; // position: absolute; //
-top: 80%; // left: 0; // height: 100px; // width: 100%; // background:
-url("../assets/images/svg-1.svg") bottom center; // }

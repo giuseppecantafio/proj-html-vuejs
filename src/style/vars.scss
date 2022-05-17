@@ -1,7 +1,7 @@
 /* Text and other */
 $dark: black;
 $light: white;
-$search-bg: #F5F5F5;
+$search-bg: #f5f5f5;
 
 /* Color cube */
 $white: #ffff;
@@ -29,9 +29,9 @@ $vulcan: #141423;
 $casablanca: #f8b54e;
 
 /* Mixin */
-@mixin standard-a{
-    text-decoration: none;
+@mixin standard-a {
+  text-decoration: none;
 }
-@mixin standard-ul{
-    list-style-type: none;
+@mixin standard-ul {
+  list-style-type: none;
 }

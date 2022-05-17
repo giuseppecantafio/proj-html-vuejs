@@ -47,22 +47,24 @@
       </nav>
       <!--/FINE NAV-->
       <!--INIZIO JUMBOTRON-->
-        <div class="jumbotron d-flex justify-content-center align-items-center">
-          <div class="info-container text-center">
-            <h2>Commence Business</h2>
-            <h1>Distant Mentoring Program</h1>
-            <div class="d-flex justify-content-center">
-              <a href="#" class="myButton rounded mt-3 hvr-grow text-center">Download free guidebook <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </div>
-          <div class="bar-container text-center">
-            <a href="#"><i class="fa-brands fa-bitcoin hvr-float"></i></a>
-            <a href="#"><i class="fa-brands fa-cc-visa hvr-float"></i></a>
-            <a href="#"><i class="fa-brands fa-amazon-pay hvr-float"></i></a>
-            <a href="#"><i class="fa-brands fa-paypal hvr-float"></i></a>
-            <a href="#"><i class="fa-brands fa-google-pay hvr-float"></i></a>
+      <div class="jumbotron d-flex justify-content-center align-items-center">
+        <div class="info-container text-center">
+          <h2>Commence Business</h2>
+          <h1>Distant Mentoring Program</h1>
+          <div class="d-flex justify-content-center">
+            <a href="#" class="myButton rounded mt-3 hvr-grow text-center"
+              >Download free guidebook <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
         </div>
+        <div class="bar-container text-center">
+          <a href="#"><i class="fa-brands fa-bitcoin hvr-float"></i></a>
+          <a href="#"><i class="fa-brands fa-cc-visa hvr-float"></i></a>
+          <a href="#"><i class="fa-brands fa-amazon-pay hvr-float"></i></a>
+          <a href="#"><i class="fa-brands fa-paypal hvr-float"></i></a>
+          <a href="#"><i class="fa-brands fa-google-pay hvr-float"></i></a>
+        </div>
+      </div>
       <!--/FINE JUMBOTRON-->
     </header>
   </div>
@@ -142,31 +144,31 @@ nav {
 }
 
 //JUMBOTRON
-.jumbotron{
+.jumbotron {
   height: 600px;
   width: 100%;
-  background-image: url('../assets/images/home-3-hero-bg.jpg');
+  background-image: url("../assets/images/home-3-hero-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-  .info-container{
+  .info-container {
     color: $light;
-    h2{
+    h2 {
       font-size: 2rem;
     }
-    h1{
+    h1 {
       font-size: 2.5rem;
     }
-    .myButton{
-    width: 250px;
-    padding: 10px 5px;
-    background-color: $white;
-    color: $mountain-meadow;
-    &:hover{
-      background-color: $mountain-meadow;
-      color: $white;
-    }
+    .myButton {
+      width: 250px;
+      padding: 10px 5px;
+      background-color: $white;
+      color: $mountain-meadow;
+      &:hover {
+        background-color: $mountain-meadow;
+        color: $white;
+      }
     }
   }
   .bar-container {
@@ -179,8 +181,7 @@ nav {
       display: block;
       color: $dark;
       padding: 10px 6px;
-      &:hover{
-
+      &:hover {
       }
     }
   }

@@ -49,7 +49,7 @@ a {
     color: $storm-dust;
     font-size: 0.8rem;
     p {
-      padding: 5px;
+      padding-right: 8px;
     }
   }
 }
