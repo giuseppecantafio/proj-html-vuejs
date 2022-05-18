@@ -168,10 +168,40 @@
                 <app-cards :item="card" />
               </div>
             </div>
+            <div
+              class="slide-selection d-flex justify-content-center align-items-center"
+            >
+              <div
+                class="points d-flex justify-content-center align-items-center"
+              >
+                <div
+                  v-for="item in myCards.length"
+                  :key="item"
+                  class="hvr-grow"
+                ></div>
+              </div>
+            </div>
+            <div
+              class="slide-under-text d-flex justify-content-center align-items-center text-center"
+            >
+              <div class="text-container">
+                <p>
+                  Control your personal preference settings to get notified
+                  about appropriate courses.
+                  <a href="#">
+                    <span
+                      >View all courses
+                      <i class="fa-solid fa-arrow-right-long"></i>
+                    </span>
+                  </a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
         <!--/FINE QUARTO BLOCCO-->
       </div>
+      <div class="end-bg"></div>
     </div>
   </div>
 </template>
@@ -204,17 +234,6 @@ export default {
     rgba(226, 226, 224, 1) 0%,
     rgba(255, 255, 255, 1) 100%
   );
-  position: relative;
-
-  &:after {
-    content: "";
-    position: absolute;
-    top: 95%;
-    left: 0;
-    height: 100px;
-    width: 100%;
-    background: url("../assets/images/svg-1.svg") bottom center;
-  }
   .main-container {
     width: 70%;
     margin: 0 auto;
@@ -382,9 +401,49 @@ export default {
       }
       .cards-container {
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
+      }
+      .slide-selection {
+        width: 100%;
+        height: 25px;
+        .points {
+          width: 50px;
+          div {
+            margin: 10px;
+            padding: 5px;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: $delta;
+            cursor: pointer;
+            &:hover {
+              background-color: $dark;
+            }
+          }
+        }
+      }
+      .slide-under-text {
+        padding-top: 70px;
+        width: 100%;
+        height: 50px;
+        .text-container {
+          width: 35%;
+          p {
+            font-size: 0.8rem;
+            color: $storm-dust;
+            font-weight: 600;
+            a span {
+              color: $dark;
+            }
+          }
+        }
       }
     }
+  }
+  .end-bg {
+    width: 100%;
+    height: 100px;
+    background-image: url("../assets/images/svg-1.svg");
   }
 }
 </style>
