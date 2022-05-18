@@ -64,8 +64,11 @@
           </div>
         </div>
         <div class="credits text-center">
-            &copy; 2020 Maxcoach. All Rights Reserved
+          &copy; 2020 Maxcoach. All Rights Reserved
         </div>
+        <h1 class="navigator text-center">
+          <a href="#"><i class="fa-solid fa-up-long rounded-circle"></i></a>
+        </h1>
       </div>
     </div>
   </div>
@@ -84,6 +87,7 @@ export default {
       myExplore: dati.explore,
       myExtra: dati.extraexplore,
       myInformation: dati.information,
+      myButton: document.getElementById("myBtn"),
     };
   },
 };
@@ -93,17 +97,18 @@ export default {
 @import "../style/vars.scss";
 
 .footer-container {
-    padding-top: 50px;
+  padding-top: 50px;
   width: 100%;
   height: 350px;
   background-color: $vulcan;
+  position: relative;
   .footer-wrapper {
     width: 70%;
     margin: 0 auto;
   }
   .col-left {
     h2 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
       color: $white;
     }
     .elements {
@@ -130,7 +135,7 @@ export default {
   }
   .col-right {
     h2 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
       color: $white;
     }
     .elements {
@@ -142,12 +147,25 @@ export default {
       }
     }
     .extra {
-      margin-top: 48px;
+      margin-top: 40px;
     }
   }
-  .credits{
-      padding-top: 25px;
-      color: $delta;
+  .credits {
+    padding-top: 25px;
+    color: $delta;
+  }
+  .navigator {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    i {
+      padding-top: 28px;
+      color: $white;
+      width: 100px;
+      height: 100px;
+      background-color: $mountain-meadow;
+    }
   }
 }
 </style>

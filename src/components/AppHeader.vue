@@ -87,8 +87,12 @@ export default {
 
 // NAVBAR
 nav {
+  background-color: $white;
   height: 80px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
   .container {
     height: 100%;
     width: 100%;
@@ -175,8 +179,9 @@ nav {
     background-color: $white;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    position: absolute;
+    position: fixed;
     right: 0;
+    z-index: 99999;
     a i {
       display: block;
       color: $dark;
