@@ -28,8 +28,7 @@
           <div class="col-6 col-right d-flex align-items-center">
             <div class="testimonial-box hvr-grow hvr-underline-from-left" @mouseover="stopSlider" @mouseleave="startSlider">
               <div
-                class="my-testimonial "
-                :class="{ activeUser: indice === currentIndex }"
+                class="my-testimonial"
               >
                 <h2 class="uppertext">
                   {{ myTestimonials[indice].upperText }}
@@ -75,7 +74,6 @@ export default {
   data() {
     return {
       myTestimonials: dati.testimonials,
-      currentIndex: 0,
       indice: 0,
       intervallo: null
     };
