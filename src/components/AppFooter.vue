@@ -87,7 +87,6 @@ export default {
       myExplore: dati.explore,
       myExtra: dati.extraexplore,
       myInformation: dati.information,
-      myButton: document.getElementById("myBtn"),
     };
   },
 };

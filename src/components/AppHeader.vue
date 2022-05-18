@@ -11,9 +11,15 @@
                   <a :href="item.link"
                     >{{ item.name }} <i class="fa-solid fa-angle-down"></i>
                     <div class="dd-content text-center">
-                      <div><span class="hvr-underline-from-left">Link</span></div>
-                      <div><span class="hvr-underline-from-left">Link</span></div>
-                      <div><span class="hvr-underline-from-left">Link</span></div>
+                      <div>
+                        <span class="hvr-underline-from-left">Link</span>
+                      </div>
+                      <div>
+                        <span class="hvr-underline-from-left">Link</span>
+                      </div>
+                      <div>
+                        <span class="hvr-underline-from-left">Link</span>
+                      </div>
                     </div>
                   </a>
                 </li>
