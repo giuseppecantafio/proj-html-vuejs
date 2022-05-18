@@ -53,5 +53,28 @@
       "lessons": "17 Lessons",
       "students": "62 Students"
     }
+  ],
+  "testimonials": [
+    {
+      "upperText": "Professional team of specialists and passionate mentors at reach",
+      "middleText": "I need to get a certification for English proficiency and MaxCoach is my best choice. Thei tutors are smart and professional when dealing with students.",
+      "img": "testimonial-avata-01.jpg",
+      "name": "Madley Pondor",
+      "job": "/ IT Specialist"
+    },
+    {
+      "upperText": "High level of efficiency and scientific teaching methods",
+      "middleText": "I am free to learn at my own pace, follow my own schedule and choose the subject I want to learn from the syllabys. Great study portal for people like me.",
+      "img": "testimonial-avata-02.jpg",
+      "name": "Mina Hollace",
+      "job": "/ Freelancer"
+    },
+    {
+      "upperText": "The MaxCoach team works really hard to ensure high level of quality ",
+      "middleText": "I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation into effective methods to adopt",
+      "img": "testimonial-avata-03.jpg",
+      "name": "Luvic Dubble",
+      "job": "/ Private tutor"
+    }
   ]
 }
