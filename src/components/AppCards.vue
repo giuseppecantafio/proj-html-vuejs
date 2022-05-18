@@ -31,7 +31,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 @import "../style/vars.scss";
 a {
   text-align: left !important;
