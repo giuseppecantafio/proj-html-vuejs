@@ -9,8 +9,13 @@
               <ul class="d-flex justify-content-start align-items-center">
                 <li v-for="(item, index) in myDati" :key="index" class="px-2">
                   <a :href="item.link"
-                    >{{ item.name }} <i class="fa-solid fa-angle-down"></i
-                  ></a>
+                    >{{ item.name }} <i class="fa-solid fa-angle-down"></i>
+                    <div class="dd-content text-center">
+                      <div><span class="hvr-underline-from-left">Link</span></div>
+                      <div><span class="hvr-underline-from-left">Link</span></div>
+                      <div><span class="hvr-underline-from-left">Link</span></div>
+                    </div>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -104,8 +109,27 @@ nav {
         height: 100%;
         ul {
           height: 100%;
-          a {
-            color: $dark;
+          li {
+            &:hover .dd-content {
+              display: block;
+            }
+            a {
+              color: $dark;
+              position: relative;
+              .dd-content {
+                background-color: $white;
+                width: 200px;
+                display: none;
+                position: absolute;
+                bottom: -124px;
+                left: -45px;
+                div {
+                  margin-bottom: 5px;
+                  padding: 5px;
+                  display: block;
+                }
+              }
+            }
           }
         }
         .img-container {
