@@ -3,10 +3,12 @@
     <app-header />
     <app-main />
     <app-sponsor />
+    <app-footer />
   </div>
 </template>
 
 <script>
+import AppFooter from './components/AppFooter.vue';
 import AppHeader from "./components/AppHeader.vue";
 import AppMain from "./components/AppMain.vue";
 import AppSponsor from "./components/AppSponsor.vue";
@@ -17,6 +19,7 @@ export default {
     AppHeader,
     AppMain,
     AppSponsor,
+    AppFooter,
   },
 };
 </script>

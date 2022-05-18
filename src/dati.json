@@ -99,5 +99,101 @@
       "date": "May 15, 2020",
       "views": "397 views"
     }
+  ],
+
+  "address": [
+    {
+      "name": "382 NE 191st St # 87394 Miami, FL 33179-3899",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "+1 (305) 547-9909 (9am - 5pm EST, Monday - Friday)",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "support@maxcoach.com",
+      "link": "",
+      "active": false
+    }
+  ],
+  "icons": [
+    {
+      "icon": "fa-brands fa-facebook",
+      "link": "",
+      "active": false
+    },
+    {
+      "icon": "fa-brands fa-twitter",
+      "link": "",
+      "active": false
+    },
+    {
+      "icon": "fa-brands fa-instagram",
+      "link": "",
+      "active": false
+    },
+    {
+      "icon": "fa-brands fa-linkedin-in",
+      "link": "",
+      "active": false
+    }
+  ],
+  "explore": [
+    {
+      "name": "Start here",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "Blog",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "About us",
+      "link": "",
+      "active": false
+    }
+  ],
+  "extraexplore": [
+    {
+      "title": "Success story",
+      "link": "",
+      "active": false
+    },
+    {
+      "title": "Courses",
+      "link": "",
+      "active": false
+    },
+    {
+      "title": "Contact us",
+      "link": "",
+      "active": false
+    }
+  ],
+  "information": [
+    {
+      "name": "Membership",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "Purchase guide",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "Privacy policy",
+      "link": "",
+      "active": false
+    },
+    {
+      "name": "Terms of service",
+      "link": "",
+      "active": false
+    }
   ]
 }
